@@ -5,6 +5,10 @@ const suma = (n1, n2) => {
 return n1+n2;
 }
 
+// Module es una variable global para este archivo. Su función, como era de esperarse, expresa la funcionalidad que se va a exportar
 module.exports = {
     suma,
 }
+
+// Si ejecutamos este archivo, podemos ver justamente las funcionalidades exportadas.
+console.log(module)
