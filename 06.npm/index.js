@@ -12,3 +12,17 @@ const colors = require('colors');
 console.log('Hola mundo'.bgGreen);
 console.log('Hola mundo'.bgBlue);
 console.log('Hola mundo'.bgYellow);
+
+// Al ejecutar el comando npm init vamos a poder inicializar o configurar un paquete existente en nuestro directorio.
+// Esto es particularmente útil para crear modulos y poder subirlos eventualmente a npm en caso de que queramos.
+// Además, tenemos opciones extras como ejecutar lineas de comando bajo un alias mediante el apartado scripts
+
+// Otra opción muy útil es especificar dependencias exclusivas para desarrollo mediante la opción -D.
+// Por ejemplo "npm i nodemon -D"
+// Otra opción es mediante el parámetro -g, para descargarlo de forma global y poder usarlo en los siguientes proyectos.
+// Por ejemplo "npm i nodemon -g"
+
+// Existe una herramienta como npm, solo que en vez de instalar herramientas como módulos los hace como CLI(Common Line Interface).
+// Esta herramienta se llama npx y te permite ejecutar un paquete sin la necesidad de tenerlo instalado en tu maquina.
+// De la misma forma que al instalar cualquier otro paquete, al usar npx el resultado de esa funcionalidad va a ser
+// ejecutada inmediatamente
