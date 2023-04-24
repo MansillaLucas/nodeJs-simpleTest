@@ -5,7 +5,8 @@
 // npm es una funcionalidad ya integrada con Node así que no es necesario crear algo aparte.
 // Al descargar la funcionalidad se creará un directorio llamado "node_modules" que contiene todos los modulos instalados.
 // Node tratará entonces, cuando busca una modulo, buscarlo entre las funcionalidades básicas del sistema
-// y luego sobre la carpeta node_modules.
+// y luego sobre la carpeta node_modules. Especificará dentro de un nuevo archivo llamado package.json todas las dependencias de
+// este proyecto, junto con sus respectivas versiones.
 
 const colors = require('colors');
 
